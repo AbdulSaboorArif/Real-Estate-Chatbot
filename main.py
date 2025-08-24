@@ -18,7 +18,7 @@ app = FastAPI()
 # Configure CORS
 origins = [
     "http://localhost:3000",  # Next.js frontend URL
-    "https://real-estate-website-snowy-eight.vercel.app/",  # Vercel deployment URL
+    "https://real-estate-website-snowy-eight.vercel.app",  # Vercel deployment URL
     "https://real-estate-chatbot-59y6.onrender.com/chat",  # Render deployment URL
 ]
 
